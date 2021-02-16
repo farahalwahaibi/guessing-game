@@ -1,5 +1,5 @@
 body {
-    width: 960px;
+    background-color:white;
 }
 body header h1 {
     text-align: center;
@@ -12,9 +12,16 @@ body header p {
 }
 
 
-body main nav ul li {
+header ul li {
     color: black;
-    background-color: rgb(87, 183, 228);
+    background-color: rgb(97, 155, 182);
+ 
+}
+
+body ol li {
+    color: black;
+    background-color:rgb(97, 155, 182);
+   
 }
 
 

@@ -2,7 +2,7 @@
 let score = 0
 let userName =prompt('Whats your name?');
 console.log (userName); 
-alert('Wlecome '+ userName+ ' lets rate how much you know me from 5/5?');
+alert('Welcome '+ userName+ ' lets rate how much you know me from 7/7?');
 
 let iceCream =prompt('Do you think that I prefer eating ice-cream in winter more than summer?');
 console.log (iceCream);
@@ -10,16 +10,21 @@ if (iceCream.toLowerCase() == 'yes') {
     score++ ;
     console.log(score)
     alert(iceCream+ ' you are right ,and especially vanilla, you got 1 point');
+    
 } else if (iceCream.toLowerCase() == 'y') {
     score++ ;
     console.log(score)
    alert(iceCream+ ' you are right ,and especially vanilla, you got 1 point');
+  
+  
+
    
 }
-else if (iceCream.toLowerCase() == 'no' || iceCream.toLowerCase() == 'n' ) {
+else if (iceCream.toLowerCase() == 'no' || iceCream.toLowerCase !== 'n') {
     alert(iceCream+ ' wrong answer, 0 point');
+    
+    
 }
-
 
 let beginnerViolinist =prompt('Do you think I am a beginner violinist?');
 console.log (beginnerViolinist);
@@ -87,30 +92,30 @@ else {
 }
 
 let i=0 ;
-let myAge =prompt ('Guess how old are me?'); 
+let yearAge =prompt ('Guess in which year I became 26 years old?'); 
 for (i=0 ; i<3 ; i++) {
-if (myAge == 26 ) {
-    console.log (myAge);
-    alert ('you are right ,I am ' +myAge+ ' years old');
+if (yearAge == 2020 ) {
+    console.log (yearAge);
+    alert ('you are right ,In ' +yearAge+ ' I became 26 years old');
     score++ ;
     console.log (score);
     break;
     
 }
-if (myAge < 26) {
+if (yearAge < 2020 ) {
     alert (' too low ');
-    myAge =prompt('Guess how old are me');
+    yearAge =prompt('Guess in which year I became 26 years old?');
 }
     
-if (myAge > 26) {
+if (yearAge > 2020 ) {
     alert (' too high ');
-    myAge =prompt('Guess how old are me');
+    yearAge =prompt('Guess in which year I became 26 years old?');
 }
 
 }
 
-let favoriteStretchExercise = ['cobra stretch' , 'camel pose'  , 'side plank with arm raised' ];
-let favoriteExercise = prompt ('guess from those what is my favorite stretching exercise (cobra stretch , regular plank ,camel pose , superman , eagle pose , side plank with arm raised)?');
+let favoriteStretchExercise = ['cobra stretch' , 'camel pose'  , 'side plank with arm raise' ];
+let favoriteExercise = prompt ('guess from those what is my favorite stretching exercise (cobra stretch , regular plank ,camel pose , superman , eagle pose , side plank with arm raise)?');
 
 for (i=0 ; i<5 ; i++ ){
     if (favoriteExercise === favoriteStretchExercise [0] || favoriteExercise === favoriteStretchExercise [1] || favoriteExercise === favoriteStretchExercise [2] ){
@@ -120,7 +125,7 @@ for (i=0 ; i<5 ; i++ ){
         break ;
     
     } else {
-        favoriteExercise = prompt ('guess from those what is my favorite stretching exercise (cobra stretch , regular plank ,camel pose , superman , eagle pose , side plank with arm raised)?');
+        favoriteExercise = prompt ('guess from those what is my favorite stretching exercise (cobra stretch , regular plank ,camel pose , superman , eagle pose , side plank with arm raise)?');
     } 
 }
 alert('your score=' + score+ '/7') ;
