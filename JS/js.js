@@ -28,12 +28,12 @@ else {
     alert(beginnerViolinist+ ' wrong answer, 0 point');
 }
 
-let affectionateAnimals =prompt('Do you think I am affectionate with animals?');
+let affectionateAnimals =prompt('Do you think I am in love with animals?');
 console.log (affectionateAnimals);
 if (affectionateAnimals.toLowerCase() == 'yes') {
-    alert(affectionateAnimals+ ' you are right ,I feel animals look like babies,I am in love with panda baby <3 <3 , you got 1 point');
+    alert(affectionateAnimals+ ' you are right ,I feel that animals look like babies,I am in love with panda baby <3 <3 and I hope to work as a panda nany , you got 1 point');
 } else if (affectionateAnimals.toLowerCase() == 'y') {
-   alert(affectionateAnimals+ ' you are right ,I feel that animals look like babies,I am in love with panda baby <3 <3 , you got 1 point');
+   alert(affectionateAnimals+ ' you are right ,I feel that animals look like babies,I am in love with panda baby <3 <3 and I hope to work as a panda nany , you got 1 point');
    
 }
 else {
