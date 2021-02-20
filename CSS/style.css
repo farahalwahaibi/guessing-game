@@ -1,27 +1,44 @@
+
+
+
 body {
-    background-color:white;
+    background-color:rgb(88, 179, 159);
+    width: 70%;
 }
-body header h1 {
+body header h2 {
     text-align: center;
-    color: rgb(87, 183, 228);
-    background-color: black;
+    color: rgb(5, 5, 5);
 }
 body header p {
-    text-align: center;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 
 header ul li {
-    color: black;
-    background-color: rgb(97, 155, 182);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(199, 84, 94);
+    
+    
  
+}
+body p {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: lightskyblue;
 }
 
 body ol li {
-    color: black;
-    background-color:rgb(97, 155, 182);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(199, 84, 94);
    
+   
+}
+body h3 {
+    color: rgb(88,179, 159);
+    background-color: cornsilk;
+    text-align: center;
 }
 
 
